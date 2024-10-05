@@ -1,6 +1,6 @@
 # Bhoomi Chatbot
 
-#Steps to run the project
+# Steps to run the project
 
 '''bash
 conda create -n chatbot python=3.8 -y

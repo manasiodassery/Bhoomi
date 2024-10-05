@@ -4,4 +4,4 @@ pinecone-client
 langchain==0.0.225
 flask
 langchain
-U langchain-community
+langchain-community

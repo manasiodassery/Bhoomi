@@ -4,4 +4,9 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+statsmodels
 xgboost
+prophet
+joblib
+
+

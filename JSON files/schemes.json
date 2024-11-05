@@ -1,0 +1,34 @@
+[
+   {
+      "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-Kisan)",
+      "description": "Income support of Rs. 6,000 per year provided to all landholding farmer families in three equal installments.",
+      "eligibility": "All farmer families owning cultivable land, subject to specific exclusions.",
+      "benefits": "Direct income support of Rs. 6,000 annually in three equal installments.",
+      "application_process": "Farmers need to register via the PM-Kisan online portal or at local CSC centers.",
+      "official_link": "https://pmkisan.gov.in"
+   },
+   {
+      "scheme_name": "Agriculture Infrastructure Fund (AIF)",
+      "description": "A financing facility of Rs. 1 lakh crore to develop farm-gate and aggregation-point infrastructure for post-harvest management.",
+      "eligibility": "Farmers, FPOs, PACS, agri-entrepreneurs, and other eligible entities.",
+      "benefits": "3% interest subvention on loans up to Rs. 2 crore, with a credit guarantee for collateral-free loans.",
+      "application_process": "Eligible beneficiaries can apply through participating lending institutions, including banks and NABARD.",
+      "official_link": "https://agricoop.gov.in"
+   },
+   {
+      "scheme_name": "Agricultural Technology Management Agency (ATMA)",
+      "description": "A scheme focused on promoting agricultural extension by delivering farmer-centric and accountable services.",
+      "eligibility": "Farmers, Farmer Interest Groups (FIGs), and Farmer Producer Organizations (FPOs) involved in agriculture and allied sectors.",
+      "benefits": "Access to training, technology demonstrations, and convergence with other government programs for agricultural development.",
+      "application_process": "Farmers can connect with local ATMA offices or agricultural departments to participate in programs.",
+      "official_link": "https://agricoop.gov.in"
+   },
+   {
+      "scheme_name": "AGMARKNET (Agricultural Marketing Information Network)",
+      "description": "A nationwide information network providing real-time data on agricultural commodities' market arrivals and prices.",
+      "eligibility": "Accessible to farmers, traders, and agribusinesses involved in agricultural marketing.",
+      "benefits": "Access to reliable data on market prices, market transparency, and better decision-making for farmers.",
+      "application_process": "Farmers can access AGMARKNET data through the official AGMARKNET portal or via APMC-provided facilities.",
+      "official_link": "https://agmarknet.gov.in"
+   }
+]

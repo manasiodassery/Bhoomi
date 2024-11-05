@@ -8,30 +8,52 @@ def load_schemes_data():
     return schemes
 
 # Streamlit app interface
-st.set_page_config(page_title="Bhoomi: Government Schemes and Subsidies", page_icon="🌾", layout="centered")
+st.set_page_config(page_title="Bhoomi: Government Schemes and Subsidies", page_icon="🌾", layout="wide")
 st.title("Bhoomi: Government Schemes and Subsidies")
-st.markdown("Explore various agricultural schemes and subsidies available for farmers.")
+st.markdown("Find various government schemes and subsidies available to support farmers.")
 
 # Load schemes data
 schemes = load_schemes_data()
 
-# Search functionality
-search_query = st.text_input("Search for a scheme or subsidy", "")
+# Sidebar search input
+st.sidebar.header("Search Schemes")
+search_query = st.sidebar.text_input("Enter scheme name or keyword", "")
 
 # Filter schemes based on search query
-filtered_schemes = [
-    scheme for scheme in schemes 
-    if search_query.lower() in scheme.get('scheme_name', '').lower()
-]
+filtered_schemes = {
+    name: details for name, details in schemes.items() 
+    if search_query.lower() in name.lower()
+}
 
-# Display schemes
+# Display filtered schemes
+st.subheader("Available Schemes")
 if filtered_schemes:
-    for scheme in filtered_schemes:
-        with st.expander(scheme.get('scheme_name', 'Unknown Scheme')):
-            st.write(f"**Description:** {scheme.get('description', 'N/A')}")
-            st.write(f"**Eligibility:** {scheme.get('eligibility', 'N/A')}")
-            st.write(f"**Benefits:** {scheme.get('benefits', 'N/A')}")
-            st.write(f"**Application Process:** {scheme.get('application_process', 'N/A')}")
-            st.write(f"[Official Link]({scheme.get('official_link', '#')})")
+    for scheme_name, details in filtered_schemes.items():
+        with st.expander(scheme_name):
+            st.write(f"**Introduction:** {details.get('Introduction', 'N/A')}")
+            st.write(f"**Implementation Period:** {details.get('Implementation Period', 'N/A')}")
+            st.write(f"**Budget:** {details.get('Budget', 'N/A')}")
+            st.write(f"**Objective:** {details.get('Objective', 'N/A')}")
+            st.write(f"**Eligibility:** {details.get('Eligibility', 'N/A')}")
+            
+            # Handle Benefits and Features as nested sections if present
+            if "Benefits" in details:
+                st.write("**Benefits:**")
+                for benefit, description in details["Benefits"].items():
+                    st.write(f"- **{benefit}:** {description}")
+            if "Focus Areas" in details:
+                st.write("**Focus Areas:**")
+                for focus, description in details["Focus Areas"].items():
+                    st.write(f"- **{focus}:** {description}")
+            if "Services" in details:
+                st.write("**Services:**")
+                for service, description in details["Services"].items():
+                    st.write(f"- **{service}:** {description}")
+            if "Features" in details:
+                st.write("**Features:**")
+                for feature, description in details["Features"].items():
+                    st.write(f"- **{feature}:** {description}")
+                    
+            st.write(f"[More Information]({details.get('More Information', '#')})")
 else:
     st.info("No schemes found. Please enter a different search term.")

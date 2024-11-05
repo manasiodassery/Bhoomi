@@ -1,34 +1,69 @@
-[
-   {
-      "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-Kisan)",
-      "description": "Income support of Rs. 6,000 per year provided to all landholding farmer families in three equal installments.",
-      "eligibility": "All farmer families owning cultivable land, subject to specific exclusions.",
-      "benefits": "Direct income support of Rs. 6,000 annually in three equal installments.",
-      "application_process": "Farmers need to register via the PM-Kisan online portal or at local CSC centers.",
-      "official_link": "https://pmkisan.gov.in"
+{
+   "Agriculture Infrastructure Fund": {
+       "Introduction": "A central sector scheme by the Indian government aimed at boosting agriculture infrastructure, especially at the post-harvest stages.",
+       "Implementation Period": "2020-21 to 2032-33",
+       "Budget": "1 lakh crore INR (1 trillion INR)",
+       "Objective": "Mobilize medium- to long-term debt financing for investment in viable projects for post-harvest management infrastructure and community farming assets.",
+       "Eligibility": "Farmer Producer Organizations, agricultural entrepreneurs, and start-ups among others.",
+       "Benefits": {
+           "Interest subvention": "3% per annum on loans up to 2 crore INR",
+           "Credit guarantee": "Support covering credit guarantee fees",
+           "Technical support": "Technical advice and project management services"
+       },
+       "More Information": "https://www.nabard.org"
    },
-   {
-      "scheme_name": "Agriculture Infrastructure Fund (AIF)",
-      "description": "A financing facility of Rs. 1 lakh crore to develop farm-gate and aggregation-point infrastructure for post-harvest management.",
-      "eligibility": "Farmers, FPOs, PACS, agri-entrepreneurs, and other eligible entities.",
-      "benefits": "3% interest subvention on loans up to Rs. 2 crore, with a credit guarantee for collateral-free loans.",
-      "application_process": "Eligible beneficiaries can apply through participating lending institutions, including banks and NABARD.",
-      "official_link": "https://agricoop.gov.in"
+   "PM-Kisan Samman Nidhi": {
+       "Introduction": "A scheme providing income support to all land holding farmer families across India to supplement their financial needs.",
+       "Operational Since": "December 1, 2018",
+       "Support Amount": "6,000 INR per year in three equal installments",
+       "Family Definition": "Husband, wife and minor children",
+       "Exclusion Criteria": "High income status individuals, professionals, and non-farming sectors",
+       "Disbursement": "Direct transfer to the bank accounts of the beneficiaries",
+       "More Information": "https://pmkisan.gov.in"
    },
-   {
-      "scheme_name": "Agricultural Technology Management Agency (ATMA)",
-      "description": "A scheme focused on promoting agricultural extension by delivering farmer-centric and accountable services.",
-      "eligibility": "Farmers, Farmer Interest Groups (FIGs), and Farmer Producer Organizations (FPOs) involved in agriculture and allied sectors.",
-      "benefits": "Access to training, technology demonstrations, and convergence with other government programs for agricultural development.",
-      "application_process": "Farmers can connect with local ATMA offices or agricultural departments to participate in programs.",
-      "official_link": "https://agricoop.gov.in"
+   "ATMA Scheme": {
+       "Full Name": "Agricultural Technology Management Agency",
+       "Goal": "Revitalize agricultural extension services to make them more farmer-driven and accountable.",
+       "Coverage": "Nationwide, in all districts",
+       "Funding": "State and central government",
+       "Focus Areas": {
+           "Farmer mobilization": "Formation of farmer interest groups",
+           "Technology dissemination": "Adoption of innovative farming techniques",
+           "Skill development": "Training in modern agricultural practices"
+       },
+       "More Information": "http://agricoop.nic.in/atma.html"
    },
-   {
-      "scheme_name": "AGMARKNET (Agricultural Marketing Information Network)",
-      "description": "A nationwide information network providing real-time data on agricultural commodities' market arrivals and prices.",
-      "eligibility": "Accessible to farmers, traders, and agribusinesses involved in agricultural marketing.",
-      "benefits": "Access to reliable data on market prices, market transparency, and better decision-making for farmers.",
-      "application_process": "Farmers can access AGMARKNET data through the official AGMARKNET portal or via APMC-provided facilities.",
-      "official_link": "https://agmarknet.gov.in"
+   "Agmarknet": {
+       "Introduction": "An online network for the dissemination of agricultural marketing information including price trends and market arrivals.",
+       "Managed By": "Directorate of Marketing & Inspection, under the Ministry of Agriculture",
+       "Objective": "Provide real time data to farmers to ensure fair pricing",
+       "Features": {
+           "Market data": "Prices, arrivals, commodity-wise, market-wise statistics",
+           "Stakeholder interaction": "Farmers, traders, and market associations",
+           "Training": "Awareness programs on how to utilize market information"
+       },
+       "More Information": "https://agmarknet.gov.in"
+   },
+   "MIDH": {
+       "Full Name": "Mission for Integrated Development of Horticulture",
+       "Introduction": "A government initiative to promote holistic growth of the horticulture sector.",
+       "Operational Period": "Nationwide coverage, focus on boosting horticulture production",
+       "Budget": "Central government funding with state support",
+       "Key Areas": {
+           "Production Enhancement": "Use of quality seeds, organic farming practices",
+           "Post-Harvest Management": "Development of cold chain infrastructure and value addition",
+           "Technology Adoption": "Protected cultivation, precision farming"
+       },
+       "More Information": "https://midh.gov.in"
+   },
+   "Plant Quarantine": {
+       "Managed By": "Directorate of Plant Protection, Quarantine & Storage",
+       "Objective": "Prevent the introduction of exotic pests in India through imported plants and plant products.",
+       "Services": {
+           "Import Permit": "Permits for importing plants and plant products",
+           "Phyto-Sanitary Certificates": "Certification for exported plants to meet international standards",
+           "Online Services": "Application submissions and status tracking through PQIS"
+       },
+       "More Information": "http://plantquarantineindia.nic.in"
    }
-]
+}
